@@ -1,0 +1,112 @@
+li, a, button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #131623;
+}
+
+#header {
+    display: flex;
+    justify-content: flex-end; /* menu hacia la derecha*/
+    align-items: center;
+    padding: 7px 10% 7px 10%;
+    background: #f3f4f5e8;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto; /* Logo hacia la izquierda*/
+    width: 200px;
+}
+
+.ul_menu {
+    list-style: none;
+    margin: 0;
+}
+
+.ul_menu li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.ul_menu li a {
+    text-decoration: none;
+    position: relative;
+    color: #131623;
+}
+
+
+
+
+.ul_menu a::before {
+    content: "";
+    position: absolute;
+    border: 1px solid #00FFFF;
+    border-radius: 5px;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.ul_menu a:hover::before {
+    transform: scaleX(0);
+}
+
+.stock button {
+    background: #00FFFF;
+    background-image: -webkit-linear-gradient(top, #00FFFF, #4AAEC1);
+    background-image: -moz-linear-gradient(top, #00FFFF, #4AAEC1);
+    background-image: -ms-linear-gradient(top, #00FFFF, #4AAEC1);
+    background-image: -o-linear-gradient(top, #00FFFF, #4AAEC1);
+    background-image: -webkit-gradient(to bottom, #00FFFF, #4AAEC1);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #131623;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 15px;
+    /* -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000; */
+    text-shadow: 0 1px 19px #000000;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 20px;
+    transition: all 0.3s ease 0s;
+ }
+ 
+ .stock button:hover {
+    background: #4AAEC1;
+    background-image: -webkit-linear-gradient(top, #4AAEC1, #1E62D0);
+    background-image: -moz-linear-gradient(top, #4AAEC1, #1E62D0);
+    background-image: -ms-linear-gradient(top, #4AAEC1, #1E62D0);
+    background-image: -o-linear-gradient(top, #4AAEC1, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #4AAEC1, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+ }
+
+ /* carousel-indicators */
+
+
+
+

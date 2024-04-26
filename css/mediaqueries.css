@@ -1,0 +1,23 @@
+@media screen and (max-width: 895px) {
+    body {
+        min-width: 810px;
+        background: red;
+    }
+    .titulo {
+        font-size: 1.5rem;
+    }
+    .span_hashtag {
+        color: #131623;
+        letter-spacing: 4px;
+        transition: all 0.5s ease 0s;
+    }
+    
+    .span_hashtag:hover {
+        color: orange;
+        letter-spacing: 6px;
+    }
+    #en_stock {
+        margin: 40px 0;
+        padding: 0;
+    }
+}

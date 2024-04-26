@@ -1,0 +1,65 @@
+@import url(/css/header.css);
+@import url(/css/en_stock.css);
+@import url(/css/marquee.css);
+@import url(/css/mediaqueries.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-image: url(/img/fondo_principal.png);
+  background-size: cover;
+  background-position: center;
+}
+
+section[id] {
+  scroll-margin-top: 60px;
+}
+
+.contenedor-logo img {
+    width: 600px;
+}
+
+.contenedor-apple img {
+    width: 280px;
+    filter: saturate(0);
+    transition: 0.4s ease all;
+}
+
+.contenedor-apple {
+    padding-right: 50px;
+}
+
+/* .contenedor-principal {
+  background-image: url(/img/fondo_principal.png);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+  max-width: 100%;
+} */
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 55px;
+    gap: 30px;
+    height: 100vh;
+}
+
+.contenedor-apple img:hover {
+    filter: saturate(100%);
+    transform: scale(1.02);
+}

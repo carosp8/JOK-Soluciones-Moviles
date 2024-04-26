@@ -1,0 +1,23 @@
+/* marquee */
+
+.marquee {
+    width: 100%;
+    background: #F3F4F5e8;
+    /* overflow: hidden; */
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.marquee span {
+    /* font-size: 11px; */
+    font-size: clamp(6px,3vw,11px);
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.9px;
+    margin-right: 50px;
+}
+
+.marquee span i {
+    color: gray;
+}
