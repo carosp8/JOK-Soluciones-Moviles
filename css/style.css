@@ -30,11 +30,11 @@ section[id] {
 }
 
 .contenedor-logo img {
-    width: 600px;
+    width: 300px;
 }
 
 .contenedor-apple img {
-    width: 280px;
+    width: 120px;
     filter: saturate(0);
     transition: 0.4s ease all;
 }
