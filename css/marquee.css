@@ -6,6 +6,7 @@
     /* overflow: hidden; */
     padding: 10px;
     white-space: nowrap;
+    behavior: alternate;
 }
 
 .marquee span {
@@ -15,7 +16,7 @@
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.9px;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .marquee span i {
