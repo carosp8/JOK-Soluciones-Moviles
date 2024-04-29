@@ -6,9 +6,9 @@
 .titulo {
     text-align: center;
     color: #131623;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 2.2rem;
+    font-family: 'Intro', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
 }
 
 .contenedor_card {

@@ -4,7 +4,11 @@
 @import url(/css/mediaqueries.css);
 @import url(/css/oficina.css);
 
-
+@font-face {
+  font-family: 'Intro';
+  src: url(/fonts/Intro/Intro.otf);
+  font-weight: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 
@@ -19,7 +23,6 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
