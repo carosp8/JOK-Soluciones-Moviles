@@ -2,6 +2,7 @@
 @import url(/css/en_stock.css);
 @import url(/css/marquee.css);
 @import url(/css/mediaqueries.css);
+@import url(/css/oficina.css);
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
@@ -20,9 +21,6 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-image: url(/img/fondo_principal.png);
-  background-size: cover;
-  background-position: center;
 }
 
 section[id] {
@@ -43,13 +41,6 @@ section[id] {
     padding-right: 50px;
 }
 
-/* .contenedor-principal {
-  background-image: url(/img/fondo_principal.png);
-  background-size: 100% 100vh;
-  background-repeat: no-repeat;
-  max-width: 100%;
-} */
-
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -63,3 +54,4 @@ section[id] {
     filter: saturate(100%);
     transform: scale(1.02);
 }
+
