@@ -11,6 +11,10 @@
     width: 100%;
 }
 
+#banner {
+    padding-top: 57.8px;
+  }
+
 .logo {
     cursor: pointer;
     margin-right: auto; /* Logo hacia la izquierda*/
@@ -31,7 +35,7 @@
     text-decoration: none;
     position: relative;
     color: #131623;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
