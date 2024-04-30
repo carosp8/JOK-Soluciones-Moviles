@@ -1,4 +1,101 @@
+/* Media query para dispositivos de escritorio */
+@media only screen and (min-width: 1025px) {
+    /* Selector para todas las imágenes dentro de .carousel-item en #banner */
+    #banner .carousel-item.one img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/png/banner_canje.png');
+      }
+    
+      /* Selector para cada elemento carousel-item */
+      #banner .carousel-item.two img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/png/banner 1920 x 780-02.png');
+      }
+  
+      #banner .carousel-item.three img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780_Mesa de trabajo 1.png');
+        }
+  
+        #banner .carousel-item.four img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780-04.png');
+        }
+  
+        #banner .carousel-item.five img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780-03.png');
+        }
+  
+        #banner .carousel-item.six img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780-06.png');
+        }
+  
+        #banner .carousel-item.seven img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780-05.png');
+        }
+    
+      /* Repite este patrón para los elementos restantes */
+  }
+
+
+
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Selector para todas las imágenes dentro de .carousel-item en #banner */
+    #banner .carousel-item.one img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/png/banner_canje.png');
+      }
+    
+      /* Selector para cada elemento carousel-item */
+      #banner .carousel-item.two img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/png/banner 1920 x 780-02.png');
+      }
+  
+      #banner .carousel-item.three img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780_Mesa de trabajo 1.png');
+        }
+  
+        #banner .carousel-item.four img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780-04.png');
+        }
+  
+        #banner .carousel-item.five img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780-03.png');
+        }
+  
+        #banner .carousel-item.six img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780-06.png');
+        }
+  
+        #banner .carousel-item.seven img {
+          /* Cambia la ruta de la imagen para dispositivos móviles */
+          /* Asegúrate de ajustar la ruta a tu nueva imagen */
+          content: url('/img/banner/png/banner 1920 x 780-05.png');
+        }
+    
+      /* Repite este patrón para los elementos restantes */
+    
     .ul_menu li a {
         text-decoration: none;
         position: relative;
@@ -55,15 +152,18 @@
 
      #banner {
         padding-top: 46.84px;
+        max-width: 100%;
       }
     
-    
+    .contenedor-titulo{
+        padding: 7px 10% 7px 10%;
+    }
     .titulo {
         font-size: 16px;
     }
     .span_hashtag {
         color: #131623;
-        letter-spacing: 3px;
+        letter-spacing: px;
         transition: all 0.5s ease 0s;
     }
     
@@ -106,3 +206,151 @@
 
     
 }
+
+/* Media query para dispositivos móviles */
+@media only screen and (min-width: 300px) and (max-width: 601px) {
+    /* Selector para todas las imágenes dentro de .carousel-item en #banner */
+    #banner .carousel-item.one img {
+      /* Cambia la ruta de la imagen para dispositivos móviles */
+      /* Asegúrate de ajustar la ruta a tu nueva imagen */
+      content: url('/img/banner/celu/1\ canje.jpg');
+    }
+  
+    /* Selector para cada elemento carousel-item */
+    #banner .carousel-item.two img {
+      /* Cambia la ruta de la imagen para dispositivos móviles */
+      /* Asegúrate de ajustar la ruta a tu nueva imagen */
+      content: url('/img/banner/celu/15\ pro.jpg');
+    }
+
+    #banner .carousel-item.three img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/celu/15.jpg');
+      }
+
+      #banner .carousel-item.four img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/celu/14\ pro.jpg');
+      }
+
+      #banner .carousel-item.five img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/celu/14.jpg');
+      }
+
+      #banner .carousel-item.six img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/celu/13\ pro.jpg');
+      }
+
+      #banner .carousel-item.seven img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('/img/banner/celu/13.jpg');
+      }
+  
+    /* Repite este patrón para los elementos restantes */
+
+    #header {
+        padding: 7px 0;
+        display: inline-block;
+        text-align: center;
+        background: #f3f4f5e8;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        width: 100%;
+    }
+    .logo {
+        cursor: pointer;
+        margin-right: 0; /* Logo hacia la izquierda*/
+        width: 200px;
+    }
+    .ul_menu {
+        list-style: none;
+        margin: 0;
+        display: none;
+    }
+    .stock button {
+        background: #4AAEC1;
+        background-image: -webkit-linear-gradient(top, #4AAEC1, #1E62D0);
+        background-image: -moz-linear-gradient(top, #4AAEC1, #1E62D0);
+        background-image: -ms-linear-gradient(top, #4AAEC1, #1E62D0);
+        background-image: -o-linear-gradient(top, #4AAEC1, #1E62D0);
+        background-image: -webkit-gradient(to bottom, #4AAEC1, #1E62D0);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        border-radius: 20px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 15px;
+        text-shadow: 0 1px 19px #000000;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        margin-left: 10px;
+        transition: all 0.3s ease 0s;
+        display: none;
+     }
+
+     .marquee {
+        width: 100%;
+        background: #F3F4F5e8;
+        /* overflow: hidden; */
+        padding: 8px;
+        white-space: nowrap;
+    }
+    
+    .marquee span {
+        /* font-size: 11px; */
+        font-size: clamp(4px,3vw,8px);
+        display: inline-block;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.9px;
+        margin-right: 20px;
+    }
+
+
+     #en_stock {
+        margin: 30px 0;
+        padding: 7px 5% 7px 5%;
+    }
+     .titulo {
+        text-align: center;
+        color: #131623;
+        font-family: 'Roboro', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .span_hashtag {
+        color: #131623;
+        letter-spacing: 2px;
+        transition: all 0.5s ease 0s;
+    }
+    
+    .span_hashtag:hover {
+        color: orange;
+        letter-spacing: 3px;
+    }
+
+    .card {
+        width: 9rem;
+    }
+
+    .card-text {
+        font-size: 8px;
+    }
+
+    .card-title {
+        font-size: 10px;
+    }
+  }

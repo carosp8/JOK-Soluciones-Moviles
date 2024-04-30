@@ -6,7 +6,6 @@
     /* overflow: hidden; */
     padding: 10px;
     white-space: nowrap;
-    behavior: alternate;
 }
 
 .marquee span {

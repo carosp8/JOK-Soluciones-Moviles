@@ -1,14 +1,14 @@
 
 #header {
     display: flex;
-    justify-content: flex-end; /* menu hacia la derecha*/
+    justify-content: space-around;
     align-items: center;
-    padding: 7px 10% 7px 10%;
     background: #f3f4f5e8;
     position: fixed;
     z-index: 999;
     top: 0;
     width: 100%;
+    padding: 7px 20px;
 }
 
 #banner {
