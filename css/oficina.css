@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 .contenedor-oficina{
@@ -68,12 +70,12 @@
  }
  
  .btn-oficina button:hover {
-    background: #00FFFF;
-    background-image: -webkit-linear-gradient(top, #00FFFF, #4AAEC1);
-    background-image: -moz-linear-gradient(top, #00FFFF, #4AAEC1);
-    background-image: -ms-linear-gradient(top, #00FFFF, #4AAEC1);
-    background-image: -o-linear-gradient(top, #00FFFF, #4AAEC1);
-    background-image: -webkit-gradient(to bottom, #00FFFF, #4AAEC1);
+    background: #FE8E2A;
+    background-image: -webkit-linear-gradient(top, #FE8E2A, #f8a342);
+    background-image: -moz-linear-gradient(top, #FE8E2A, #f8a342);
+    background-image: -ms-linear-gradient(top, #FE8E2A, #f8a342);
+    background-image: -o-linear-gradient(top, #FE8E2A, #f8a342);
+    background-image: -webkit-gradient(to bottom, #FE8E2A, #f8a342);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -83,4 +85,9 @@
     font-size: calc(0.8vw + 5px);
     display: inline-block;
     cursor: pointer;
+ }
+
+ .resaltar {
+    color: #00FFFF;
+    text-shadow: 2px 2px 3px black;
  }
