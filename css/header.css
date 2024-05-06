@@ -38,6 +38,7 @@
     font-size: 14px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 
@@ -48,7 +49,7 @@
     position: absolute;
     border: 1px solid #00FFFF;
     border-radius: 5px;
-    bottom: -5px;
+    bottom: -3px;
     left: 0;
     width: 100%;
     transform: scaleX(1);
