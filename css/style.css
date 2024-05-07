@@ -28,8 +28,8 @@ section[id] {
 
 .icono-wasap {
   position: fixed;
-  bottom: 20px; /* Ajusta esta propiedad según tu preferencia */
-  right: 20px; /* Ajusta esta propiedad según tu preferencia */
-  z-index: 999; /* Para asegurarte de que esté por encima de otros elementos */
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 999;
 }
 
