@@ -26,3 +26,10 @@ section[id] {
   scroll-margin-top: 60px;
 }
 
+.icono-wasap {
+  position: fixed;
+  bottom: 20px; /* Ajusta esta propiedad según tu preferencia */
+  right: 20px; /* Ajusta esta propiedad según tu preferencia */
+  z-index: 999; /* Para asegurarte de que esté por encima de otros elementos */
+}
+
