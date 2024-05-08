@@ -33,7 +33,6 @@
 .span_hashtag:hover {
     color: orange;
     letter-spacing: 8px;
-    text-shadow: 1px 1px 1px #131623;
 }
 
 
@@ -52,6 +51,7 @@
     position: absolute;
     bottom: -200px;
     transition: all 0.4s ease-in-out 0s;
+    
 }
 
 .card-img-top {
@@ -71,7 +71,7 @@
         padding: 16px 16px 5px 16px;
     }
     .card-img-top {
-        filter: blur(6px);
+        filter: blur(0px);
     }
 }
 
@@ -87,4 +87,12 @@
 .card-title {
     font-size: 18px;
     text-transform: uppercase;
+    background: rgba(255, 166, 0, 0.365);
+    padding: 4px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-title::first-letter {
+    text-transform: lowercase;
 }

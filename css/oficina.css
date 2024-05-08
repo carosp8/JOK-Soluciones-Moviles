@@ -1,36 +1,46 @@
 #oficina {
     margin: 60px 0;
     width: 100%;
-    height: 800px;
-    background-image: url(/img/oficina/IMG_3666.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 10px 0;
 }
 
-.contenedor-oficina{
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+.contenedor-oficina {
+    margin: 40px 0;
+    background-image: url(/img/oficina/IMG_3665.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 700px;
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    text-align: center;
-    padding: 20px 40px 15px 40px;
-    width: 80%;
-    display: none;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.5s ease 0s;
 }
 
 .titulo-oficina {
-    color: rgb(255, 255, 255);
+    text-align: center;
+    color: #131623;
     font-family: 'Roboto', sans-serif;
-    font-size: calc(1.8vw + 7px);
-    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 35px;
+    word-spacing: 20px;
+}
+
+.span_oficina {
+    word-spacing: 0;
+    transition: all 0.5s ease 0s;
+}
+
+.span_oficina:hover {
+    color: orange;
+}
+
+.contenedor-parrafo {
+    position: absolute;
+    right: 0;
+    padding: 20px;
 }
 
 .parrafo-oficina {
@@ -40,54 +50,5 @@
     line-height: 2;
     font-size: calc(0.6vw + 8px);
     max-width: 100%;
+    margin: 0;
 }
-
-
-
-.btn-oficina button {
-    background: #4AAEC1;
-    background-image: -webkit-linear-gradient(top, #4AAEC1, #1E62D0);
-    background-image: -moz-linear-gradient(top, #4AAEC1, #1E62D0);
-    background-image: -ms-linear-gradient(top, #4AAEC1, #1E62D0);
-    background-image: -o-linear-gradient(top, #4AAEC1, #1E62D0);
-    background-image: -webkit-gradient(to bottom, #4AAEC1, #1E62D0);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: calc(0.8vw + 5px);
-    font-weight: 600;
-    padding: 10px 15px;
-    text-shadow: 0 1px 19px #000000;
-    border: none;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    margin: 20px 0;
-    transition: all 0.3s ease 0s;
- }
- 
- .btn-oficina button:hover {
-    background: #FE8E2A;
-    background-image: -webkit-linear-gradient(top, #FE8E2A, #f8a342);
-    background-image: -moz-linear-gradient(top, #FE8E2A, #f8a342);
-    background-image: -ms-linear-gradient(top, #FE8E2A, #f8a342);
-    background-image: -o-linear-gradient(top, #FE8E2A, #f8a342);
-    background-image: -webkit-gradient(to bottom, #FE8E2A, #f8a342);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #131623;
-    font-weight: 600;
-    font-size: calc(0.8vw + 5px);
-    display: inline-block;
-    cursor: pointer;
- }
-
- .resaltar {
-    color: #00FFFF;
-    text-shadow: 2px 2px 3px black;
- }
