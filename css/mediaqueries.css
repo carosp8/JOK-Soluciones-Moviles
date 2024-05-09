@@ -213,14 +213,14 @@
     #banner .carousel-item.one img {
       /* Cambia la ruta de la imagen para dispositivos móviles */
       /* Asegúrate de ajustar la ruta a tu nueva imagen */
-      content: url('../img/banner/celu/1/ canje.jpg');
+      content: url('../img/banner/celu/canje.jpg');
     }
   
     /* Selector para cada elemento carousel-item */
     #banner .carousel-item.two img {
       /* Cambia la ruta de la imagen para dispositivos móviles */
       /* Asegúrate de ajustar la ruta a tu nueva imagen */
-      content: url('../img/banner/celu/15/pro.jpg');
+      content: url('../img/banner/celu/15pro.jpg');
     }
 
     #banner .carousel-item.three img {
@@ -232,7 +232,7 @@
       #banner .carousel-item.four img {
         /* Cambia la ruta de la imagen para dispositivos móviles */
         /* Asegúrate de ajustar la ruta a tu nueva imagen */
-        content: url('../img/banner/celu/14/pro.jpg');
+        content: url('../img/banner/celu/14pro.jpg');
       }
 
       #banner .carousel-item.five img {
@@ -244,7 +244,7 @@
       #banner .carousel-item.six img {
         /* Cambia la ruta de la imagen para dispositivos móviles */
         /* Asegúrate de ajustar la ruta a tu nueva imagen */
-        content: url('../img/banner/celu/13/pro.jpg');
+        content: url('../img/banner/celu/13pro.jpg');
       }
 
       #banner .carousel-item.seven img {
