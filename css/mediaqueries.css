@@ -1,14 +1,14 @@
 /* Media query para dispositivos de escritorio */
 @media only screen and (min-width: 1025px) {
     /* Selector para todas las imágenes dentro de .carousel-item en #banner */
-    #banner .carousel-item .one img {
+    #banner .carousel-item.active.one img {
         /* Cambia la ruta de la imagen para dispositivos móviles */
         /* Asegúrate de ajustar la ruta a tu nueva imagen */
         content: url('../img/banner/png/banner_canje.png');
       }
     
       /* Selector para cada elemento carousel-item */
-      #banner .carousel-item .two img {
+      #banner .carousel-item.two img {
         /* Cambia la ruta de la imagen para dispositivos móviles */
         /* Asegúrate de ajustar la ruta a tu nueva imagen */
         content: url('../img/banner/png/banner 1920 x 780-02.png');
@@ -35,7 +35,7 @@
         #banner .carousel-item.six img {
           /* Cambia la ruta de la imagen para dispositivos móviles */
           /* Asegúrate de ajustar la ruta a tu nueva imagen */
-          content: url('./img/banner/png/banner 1920 x 780-06.png');
+          content: url('../img/banner/png/banner 1920 x 780-06.png');
         }
   
         #banner .carousel-item.seven img {
