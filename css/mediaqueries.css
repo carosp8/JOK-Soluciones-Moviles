@@ -4,14 +4,14 @@
     #banner .carousel-item.one img {
         /* Cambia la ruta de la imagen para dispositivos móviles */
         /* Asegúrate de ajustar la ruta a tu nueva imagen */
-        content: url('./img/banner/png/banner_canje.png');
+        content: url('/img/banner/png/banner_canje.png');
       }
     
       /* Selector para cada elemento carousel-item */
       #banner .carousel-item.two img {
         /* Cambia la ruta de la imagen para dispositivos móviles */
         /* Asegúrate de ajustar la ruta a tu nueva imagen */
-        content: url('../img/banner/png/banner 1920 x 780-02.png');
+        content: url('.../img/banner/png/banner 1920 x 780-02.png');
       }
   
       #banner .carousel-item.three img {
