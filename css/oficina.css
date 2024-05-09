@@ -1,54 +1,113 @@
 #oficina {
     margin: 60px 0;
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
+    position: relative;
 }
 
-.contenedor-oficina {
-    margin: 40px 0;
-    background-image: url(/img/oficina/IMG_3665.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    max-width: 100%;
-    height: 700px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    border-radius: 10px;
-    position: relative;
-    transition: all 0.5s ease 0s;
+.primer-contenedor, .segundo-contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.card-icono, .icono-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.contenedor-span {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
+
+.icono {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .titulo-oficina {
-    text-align: center;
+    position: relative;
+    font-size: clamp(1rem, 20vw, 8rem);
+    letter-spacing: -0.01em;
     color: #131623;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Poetsen One", sans-serif;
     font-weight: 400;
-    font-size: 35px;
-    word-spacing: 20px;
-}
-
-.span_oficina {
-    word-spacing: 0;
-    transition: all 0.5s ease 0s;
-}
-
-.span_oficina:hover {
-    color: orange;
-}
-
-.contenedor-parrafo {
-    position: absolute;
-    right: 0;
-    padding: 20px;
-}
-
-.parrafo-oficina {
-    color: white;
-    font-weight: 500;
-    text-shadow: 2px 2px 3px black;
-    line-height: 2;
-    font-size: calc(0.6vw + 8px);
-    max-width: 100%;
+    font-style: normal;
     margin: 0;
 }
+
+.titulo-oficina::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    color: #00FFFF;
+    -webkit-text-stroke: 1px #00FFFF;
+    border-right: 2px solid #00FFFF;
+    overflow: hidden;
+    animation: move 5s alternate ease-in-out infinite;
+    text-transform: uppercase;
+}
+
+.contenedor-span span {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8em;
+    letter-spacing: 0.02em;
+    max-width: 100%;
+}
+
+@keyframes move {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 51.5%;
+    }
+}
+
+/* .titulo-oficina span {
+    font-size: 0.07em;
+    line-height: 1em;
+    letter-spacing: 0.02em;
+    display: block;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    color: #131623;
+    padding-left: 35px;
+} */
+
+/* .titulo-oficina span::before {
+    content: attr(data-span);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #00FFFF;
+    -webkit-text-stroke: 0.6px #00FFFF;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: move 5s alternate ease-in-out infinite;
+    
+} */
+
+
