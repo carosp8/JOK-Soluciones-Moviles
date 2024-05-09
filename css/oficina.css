@@ -1,7 +1,7 @@
 #oficina {
     margin: 60px 0;
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 10px;
     position: relative;
 }
 
@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
+    max-width: 100%;
 }
 
 .card-icono, .icono-card {
