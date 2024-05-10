@@ -252,6 +252,12 @@
         /* Asegúrate de ajustar la ruta a tu nueva imagen */
         content: url('../img/banner/celu/13.jpg');
       }
+
+      .icono-wasap img {
+        /* Cambia la ruta de la imagen para dispositivos móviles */
+        /* Asegúrate de ajustar la ruta a tu nueva imagen */
+        content: url('../img/iconos/whatsapp.png');
+      }
   
     /* Repite este patrón para los elementos restantes */
 
