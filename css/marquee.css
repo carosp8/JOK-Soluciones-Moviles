@@ -10,12 +10,12 @@
 
 .marquee span {
     /* font-size: 11px; */
-    font-size: clamp(6px,3vw,9px);
+    font-size: clamp(7px,3vw,10px);
     display: inline-block;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.9px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .marquee span i {

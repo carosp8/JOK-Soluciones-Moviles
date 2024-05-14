@@ -1,14 +1,24 @@
 #oficina {
     margin: 60px 0;
     width: 100%;
-    padding: 20px 10px;
+    padding: 30px 10%;
     position: relative;
+}
+
+.oficina-background {
+    background-image: url(../img/oficina/tablet/IMG_3785.JPG);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
 }
 
 .primer-contenedor, .segundo-contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     max-width: 100%;
 }
 
@@ -22,7 +32,6 @@
 }
 
 .icono {
-    background: #f3f4f5e8;
     padding: 30px;
     border-radius: 12px;
     transition: all 0.2s ease-in-out 0s;
@@ -42,8 +51,6 @@
 }
 
 .contenedor-span span {
-    background: #f3f4f5e8;
-    padding: 30px;
     border-radius: 12px;
     transition: all 0.2s ease-in-out 0s;
 }
