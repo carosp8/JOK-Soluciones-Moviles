@@ -155,7 +155,7 @@
         max-width: 100%;
       }
     
-    .contenedor-titulo{
+    .contenedor-titulo-stock{
         padding: 7px 10% 7px 10%;
     }
     .titulo {
@@ -169,7 +169,7 @@
     
     .span_hashtag:hover {
         color: orange;
-        letter-spacing: 6px;
+        letter-spacing: 8px;
     }
     #en_stock {
         margin: 40px 0;
@@ -203,6 +203,31 @@
         letter-spacing: 0.9px;
         margin-right: 10px;
     }
+
+    /* OFICINA */
+
+    .titulo-oficina {
+      position: relative;
+      font-size: 2rem;
+      color: #131623;
+      font-family: "Poetsen One", sans-serif;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+
+  .imagen-icono {
+    width: 80px;
+    max-width: 100%;
+}
+
+.detalle-icono {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.9em;
+    max-width: 100%;
+}
 
     
 }
@@ -330,7 +355,7 @@
         margin: 30px 0;
         padding: 7px 5% 7px 5%;
     }
-    .contenedor-titulo {
+    .contenedor-titulo-stock {
       padding: 7px;
     }
      .titulo {
