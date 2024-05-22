@@ -13,7 +13,7 @@ formulario.addEventListener('submit', (e) => {
             confirmButtonText: 'OK',
             background: '#F3F4F5e8',
             grow: 'row',
-            imageUrl: '../img/logo/jokmoviles.png',
+            imageUrl: './img/logo/jokmoviles.png',
             imageHeight: '50%'
           })
         e.preventDefault();
