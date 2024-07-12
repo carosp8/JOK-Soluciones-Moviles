@@ -1,4 +1,4 @@
-let formulario = document.getElementById('form');
+let formulario = document.getElementById('formSesion');
 
 console.log(formulario);
 
@@ -13,7 +13,7 @@ formulario.addEventListener('submit', (e) => {
             confirmButtonText: 'OK',
             background: '#F3F4F5e8',
             grow: 'row',
-            imageUrl: './img/logo/jokmoviles.png',
+            imageUrl: './img/logo/pesca-alargado-web.png',
             imageHeight: '50%'
           })
         e.preventDefault();
@@ -24,7 +24,7 @@ formulario.addEventListener('submit', (e) => {
 
 let loguearse = () => {
 
-    let usuario = document.getElementById('email');
+    let usuario = document.getElementById('email1');
     let password = document.getElementById('password');
 
     if((usuario.value == "") && (password.value == "")){

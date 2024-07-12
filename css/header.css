@@ -48,7 +48,7 @@
 .ul_menu a::before {
     content: "";
     position: absolute;
-    border: 1px solid #00FFFF;
+    border: 1px solid #EA1C24;
     border-radius: 5px;
     bottom: -3px;
     left: 0;
